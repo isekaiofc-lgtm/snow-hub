@@ -8,16 +8,18 @@ Built by Olivia — https://discord.gg/ojailbreaks
 loadstring(game:HttpGet("https://raw.githubusercontent.com/isekaiofc-lgtm/snow-hub/main/snowhub.lua"))()
 ```
 
+[Baixar projeto completo](https://github.com/isekaiofc-lgtm/snow-hub/raw/refs/heads/main/SnowHub-Premium-White-Edition.zip)
+
 ## Ambiente preparado
 
-O cliente depende do backend Snow Hub instalado no seu próprio jogo Roblox. Ele não integra os sistemas internos de Your Bizarre Adventure. Em outros jogos, a interface informa que o servidor Snow Hub não está instalado.
+Este cliente depende do backend Snow Hub instalado no seu próprio jogo Roblox. Ele não integra os sistemas internos de Your Bizarre Adventure. Em outros jogos, a interface informa que o servidor Snow Hub não está instalado.
 
-No projeto completo fornecido na conversa, abra `dist/SnowHubTestPlace.rbxlx` no Studio e pressione Play. Para instalar em outro place, siga `LEIA-ME.md`. Configure os testadores em `ServerScriptService/SnowHubServer/ServerConfig`. Em um jogo publicado com esse backend, execute o loader no Xeno.
+O ZIP inclui o cliente único, módulos Luau, servidor, instalador e place de demonstração. Extraia e abra `dist/SnowHubTestPlace.rbxlx` no Roblox Studio; pressione Play. Para outro place, siga `LEIA-ME.md`. Configure testadores em `ServerScriptService/SnowHubServer/ServerConfig`.
 
-RightShift mostra ou esconde o painel. O X fecha e limpa a interface após confirmação. O cliente não altera hitboxes físicas.
+Em um jogo publicado com esse backend, execute o loader no Xeno. RightShift mostra ou esconde o painel. O X encerra e limpa os recursos após confirmação.
+
+O cliente oferece coleta com filtros, ESP de NPCs/itens, hitboxes visuais, treinamento, contadores e navegação entre instâncias do mesmo projeto. O servidor valida as ações. As hitboxes físicas não são alteradas.
 
 ## Verificação
 
-A estrutura dos arquivos e dos modelos foi verificada. A execução no Roblox Studio e no Xeno ainda precisa ser validada nesses aplicativos. Server Hop exige um jogo publicado e outra instância pública com o backend.
-
-A URL deste repositório substitui o endereço chatgpt.site previsto no ZIP anterior.
+A estrutura dos arquivos e modelos foi verificada. A verificação de sintaxe passou em 17 arquivos Lua, incluindo o cliente único. Isso não executa as APIs Roblox. A execução no Studio e no Xeno ainda precisa ser validada nesses aplicativos. Server Hop exige o jogo publicado e outra instância pública com o backend.
